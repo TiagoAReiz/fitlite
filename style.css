@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(./assets/1.jpg);
+}
+header {
+  padding: 72px 58px;
+}
+.menu {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.menu:hover {
+  background-color: #7ed957;
+  color: black;
+}
+#home {
+    background-color: #7ed957;
+  color: black;
+}
+
+#mensagem {
+  color: white;
+  position: fixed;
+  font-size: 21.4px;
+  right: 35px;
+  top: 470px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  max-width: 300px;
+}
+#seta {
+  background-color: #7ed957;
+  padding: 1px;
+  width: 400px;
+  margin: 5px 0;
+  position: fixed;
+  right: 0;
+}
+#halt {
+  border-radius: 100px;
+  position: fixed;
+  top: 700px;
+  right: 595px;
+  background-image: url(assets/halt.jpg);
+  width: 52px;
+  height: 52px;
+}
+#halt:hover {
+  cursor: pointer;
+  background-image: url(assets/hover-halt.jpg);
+}
+#bn {
+  color: white;
+  font-size: 21.4px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  text-decoration: none; 
+  
+}
+#beneficios {
+  color: white;
+  position: fixed;
+  font-size: 21.4px;
+  right: 630px;
+  top: 695px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  max-width: 280px;
+
+}
+
+#aqui {
+  position: fixed;
+  right: 595px;
+  top: 665px;
+}

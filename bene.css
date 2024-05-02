@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(./assets/2.jpg);
+}
+header {
+  padding: 20px 0 0 80px;
+}
+.menu {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.menu:hover {
+  background-color: #7ed957;
+  color: black;
+}
+#logo {
+  font-size: 41px;
+  font-family: "Contrail One", sans-serif;
+  text-decoration: none;
+  
+  
+}
+#fit {
+  color: white;
+  position: fixed;
+  top: 50px;
+  display: inline;
+}
+#lite {
+  color: #7ed957;
+    position: fixed;
+  top: 75px;
+
+}
+#dt {
+  margin: 0 0 0 100px;
+}
