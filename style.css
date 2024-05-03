@@ -3,9 +3,12 @@
 }
 body {
   background-image: url(./assets/1.jpg);
+  
 }
 header {
   padding: 72px 58px;
+  position: sticky;
+  top: 0;
 }
 .menu {
   color: white;
@@ -22,33 +25,46 @@ header {
   color: black;
 }
 #home {
-    background-color: #7ed957;
+  background-color: #7ed957;
   color: black;
 }
-
-#mensagem {
-  color: white;
-  position: fixed;
-  font-size: 21.4px;
-  right: 35px;
-  top: 470px;
+main {
   font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  color: white;
   font-style: italic;
-  max-width: 300px;
+}
+#mensagem {
+  text-align: right;
+}
+#mens {
+  width: 400px;
+  margin: 300px 0 0 0;
+  display: inline-block;
+  text-align: right;
+}
+#venha {
+  width: 300px;
+  margin: 0 0 15px 70px;
 }
 #seta {
   background-color: #7ed957;
   padding: 1px;
-  width: 400px;
-  margin: 5px 0;
-  position: fixed;
-  right: 0;
+  width: 398px;
+}
+#beneficios {
+  text-align: center;
+
+}
+#bn-mensagem {
+  display: inline-block;
+  width: 300px;
+}
+#bn-icon {
+  display: inline-block;
 }
 #halt {
   border-radius: 100px;
-  position: fixed;
-  top: 700px;
-  right: 595px;
   background-image: url(assets/halt.jpg);
   width: 52px;
   height: 52px;
@@ -56,29 +72,4 @@ header {
 #halt:hover {
   cursor: pointer;
   background-image: url(assets/hover-halt.jpg);
-}
-#bn {
-  color: white;
-  font-size: 21.4px;
-  font-family: "Poppins", sans-serif;
-  font-style: italic;
-  text-decoration: none; 
-  
-}
-#beneficios {
-  color: white;
-  position: fixed;
-  font-size: 21.4px;
-  right: 630px;
-  top: 695px;
-  font-family: "Poppins", sans-serif;
-  font-style: italic;
-  max-width: 280px;
-
-}
-
-#aqui {
-  position: fixed;
-  right: 595px;
-  top: 665px;
 }
