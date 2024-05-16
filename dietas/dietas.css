@@ -64,3 +64,18 @@ img {
 .opt {
   margin: 120px 0 0 80px;
 }
+
+h4 {
+  font-style: normal;
+}
+#geral {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+  width: 420px;
+  padding: 20px;
+  background-color: #7ed9576e;
+  border-radius: 15px;
+  margin: 40px auto;
+}
