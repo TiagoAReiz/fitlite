@@ -31,6 +31,9 @@ header {
   background-color: #7ed957;
   color: black;
 }
+#pq {
+  margin: 0 0 0 1600px;
+}
 main {
   font-family: "Poppins", sans-serif;
   font-size: 21px;

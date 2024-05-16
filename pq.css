@@ -2,11 +2,12 @@
   margin: 0;
 }
 body {
-  background-image: url(../assets/4.jpg);
+  background-image: url(./assets/3.jpg);
+   background-attachment : fixed ;
 }
 header {
   padding: 20px 0 0 80px;
-      position: sticky;
+  position: sticky;
   top: 0;
 }
 .menu {
@@ -48,34 +49,35 @@ header {
 #dt {
   margin: 0 0 0 100px;
 }
-.links{
-  text-decoration: none;
-  color: white;
-  border-radius: 25px;
-  padding: 10px;
-  font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    background-color: #7ed9576e;
+main {
+  text-align: center;
 }
 
-img {
-  height: 50px;
-}
-.opt {
-  margin: 120px 0 0 80px;
-}
-
-h4 {
-  font-style: normal;
-}
 #geral {
-  font-family: "Poppins", sans-serif;
+  margin: 200px auto 0 auto;
   color: white;
-  font-size: 16px;
-  font-style: italic;
-  width: 420px;
-  padding: 20px;
-  background-color: #7ed9576e;
-  border-radius: 15px;
-  margin: 120px auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  padding: 30px;
+  display: inline-block;
+
+  text-align: left;
+  background-color: #99999999;
+  border-radius: 20px;
 }
+#itens {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+    margin: 0 auto;
+} 
+#carrosel {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+}
+img {
+  border-radius: 10px;
+}
+
