@@ -3,7 +3,6 @@
 }
 body {
   background-image: url(./assets/1.jpg);
-  
 }
 header {
   padding: 72px 58px;
@@ -32,13 +31,17 @@ header {
   color: black;
 }
 #pq {
-  margin: 0 0 0 1600px;
+  margin: 0 0 0 1400px;
+}
+#cad {
+  margin: 0 0 0 160px;
 }
 main {
   font-family: "Poppins", sans-serif;
   font-size: 21px;
   color: white;
   font-style: italic;
+  height: 800px;
 }
 #mensagem {
   text-align: right;
@@ -60,7 +63,6 @@ main {
 }
 #beneficios {
   text-align: center;
-
 }
 #bn-mensagem {
   display: inline-block;
@@ -79,8 +81,31 @@ main {
 #halt:hover {
   cursor: pointer;
   background-image: url(assets/hover-halt.jpg);
-  
 }
-#halt:active{
+#halt:active {
   box-shadow: inset 0 0 15px #000000;
+}
+footer {
+  background-color: rgb(54, 54, 54);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 3px 3px 5px #000000;
+}
+.foto {
+  width: 30px;
+  display: inline-block;
+  margin: 0 45px 0 0;
+}
+.nome {
+  font-family: "Poppins", sans-serif;
+  font-size: 8px;
+  color: white;
+  font-style: italic;
+  display: inline-block;
+}
+#Linkedin {
+  color: #0e76a8;
+}
+#Linkedin:hover {
+  color: rgb(88, 88, 88);
 }
